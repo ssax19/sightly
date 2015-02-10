@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="com.mycompany.myproject.sightly.HeroTextInjectionComponent" name="%com.mycompany.myproject.sightly.HeroTextInjectionComponent.name" description="%com.mycompany.myproject.sightly.HeroTextInjectionComponent.description">
+        <AD id="adapters" type="String" default="com.mycompany.myproject.sightly.HeroTextInjectionComponent" name="%adapters.name" description="%adapters.description"/>
+        <AD id="adaptables" type="String" default="org.apache.sling.api.resource.Resource" name="%adaptables.name" description="%adaptables.description"/>
+    </OCD>
+    <Designate pid="com.mycompany.myproject.sightly.HeroTextInjectionComponent">
+        <Object ocdref="com.mycompany.myproject.sightly.HeroTextInjectionComponent"/>
+    </Designate>
+</metatype:MetaData>

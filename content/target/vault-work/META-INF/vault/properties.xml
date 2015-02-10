@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Sightly Training Package Package</comment>
+<entry key="createdBy">ssax19</entry>
+<entry key="name">sightly-content</entry>
+<entry key="created">2015-02-02T17:31:44.278+0530</entry>
+<entry key="groupId">com.mycompany.myproject.sightly</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">adobe training</entry>
+<entry key="description">Maven Multimodule project for Sightly Training Package.</entry>
+<entry key="artifactId">sightly-content</entry>
+<entry key="path">/etc/packages/adobe training/sightly-content.zip</entry>
+</properties>

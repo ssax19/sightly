@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component enabled="true" immediate="true" name="com.mycompany.myproject.sightly.HeroTextInjectionComponent">
+        <implementation class="com.mycompany.myproject.sightly.HeroTextInjectionComponent"/>
+        <service servicefactory="false">
+            <provide interface="org.apache.sling.api.adapter.AdapterFactory"/>
+        </service>
+        <property name="adapters" type="String" value="com.mycompany.myproject.sightly.HeroTextInjectionComponent"/>
+        <property name="adaptables" type="String" value="org.apache.sling.api.resource.Resource"/>
+        <property name="service.pid" value="com.mycompany.myproject.sightly.HeroTextInjectionComponent"/>
+    </scr:component>
+</components>
